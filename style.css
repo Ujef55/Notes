@@ -25,17 +25,29 @@ body {
     font-size: 20px;
 }
 
-.addButton {
-    height: 200px;
+.notes:hover {
+    box-shadow:10px 10px 7px rgba(0, 0, 0, 0.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+.Button {
+    height: 45px;
+    width: 80px;
+    margin-top: 16px;
+    margin-left: 10px;
     border: none;
     outline: none;
-    background: rgba(0, 0, 0, 0.20);
-    border-radius: 12px;
-    font-size: 120px;
+    background: #87A96B;
+    border-radius: 5px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.50);
+    font-family: 'ubuntu';
     cursor: pointer;
 }
 
-.addButton:hover {
-    background: rgba(0, 0, 0, 0.3);
+.Button:hover {
+    background: #90ae78;
 }
