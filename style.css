@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Ubuntu&display=swap'); 
+
+
+body {
+    margin: 0;
+    background-color: #c68c53a8;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 24px;
+    gap: 24px;
+}
+
+.notes {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.50);
+    resize: none;
+    outline: none;
+    font-family: 'kalam';
+    font-size: 20px;
+}
+
+.addButton {
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    font-size: 120px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
